@@ -1,0 +1,167 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0%;
+}
+
+.meta-area {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.meta-text-bright {
+    color: #f9faf8;
+}
+
+.meta-text-small {
+    font-size: 18px;
+}
+
+.content-area {
+    background-color: #f9faf8;
+}
+
+.highlight-area {
+    background-color: #3882f6;
+    color: #e5e7eb;
+}
+
+.clamp-width {
+    margin: auto;
+    max-width: 800px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 10px 0px;
+    padding: 8px 25px;
+}
+
+#hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+#header-logo {
+    flex: auto;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    align-items: baseline;
+    padding: 5px 0px;
+}
+
+nav a {
+    padding: 0 0 0 15px;
+}
+
+#hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 0px;
+}
+
+#hero-left {
+    width: 400px;
+}
+
+#hero-left p {
+    margin: 0px;
+}
+
+#hero-right {
+    background-color: gray;
+    width: 400px;
+    height: 200px;
+}
+
+#hero-right p {
+    line-height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+#info-title {
+    font-size: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+#info-items {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 70px 0;
+}
+
+.info-item {
+    margin: 0px 15px;
+}
+
+.info-box {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 140px;
+    height: 140px;
+}
+
+.info-item p {
+    color: gray;
+    font-size: 15px;
+    margin: 5px 0px;
+    text-align: center;
+    width: 140px;
+}
+
+#quote-area {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+#quote-content {
+    padding: 100px;
+}
+
+#quote-attrib {
+    font-size: 24px;
+    font-style: normal;
+    text-align: right;
+    margin: 0px;
+}
+
+#begging-panel {
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px auto;
+    padding: 30px 100px;
+}
+
+#begging-panel p {
+    margin: 0px;
+}
+
+#begging-header {
+    font-weight: bold;
+}
+
+#begging-button {
+    border: 3px solid white;
+}
+
+#copyright {
+    line-height: 70px;
+    text-align: center;
+}
